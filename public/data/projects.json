@@ -3,7 +3,7 @@
         "name": "Dotfiles",
         "tagline": "Not perfect. Just mine.",
         "description": "Personal dotfiles for managing and reproducing my Linux development setup.",
-        "techstack": ["lua", "gnubash","shell"],
+        "techstack": ["lua", "gnubash"],
         "links": { "github": "https://github.com/itsloki-dev/.dotfiles"},
         "banner": "https://github.com/itsloki-dev/.dotfiles/raw/main/assets/banner.png"
     },
