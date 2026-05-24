@@ -756,6 +756,10 @@ section {
   font-size: clamp(3rem, 8vw, 7rem);
   letter-spacing: -0.04em; line-height: 0.9;
   margin: 2rem 0 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .contact-big span {
   -webkit-text-stroke: 1px var(--muted);
