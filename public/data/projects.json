@@ -4,15 +4,15 @@
         "tagline": "Not perfect. Just mine.",
         "description": "Personal dotfiles for managing and reproducing my Linux development setup.",
         "techstack": ["lua", "gnubash"],
-        "links": { "github": "https://github.com/itsloki-dev/.dotfiles"},
-        "banner": "https://github.com/itsloki-dev/.dotfiles/raw/main/assets/banner.png"
+        "links": { "github": "https://github.com/itsdannydev/.dotfiles"},
+        "banner": "https://github.com/itsdannydev/.dotfiles/raw/main/assets/banner.png"
     },
     {
         "name": "Attendify",
         "tagline": "Club Events Attendance Tracker",
         "description": "Export CSV file exported from website, have an interactive attendance tracker",
         "techstack": ["ejs", "javascript", "css","express"],
-        "links": { "github": "https://github.com/itsloki-dev/attendify"}
+        "links": { "github": "https://github.com/itsdannydev/attendify"}
     },
     {
         "name": "GhostFollow",
@@ -20,7 +20,7 @@
         "description": "A minimal tool that parses your Instagram data export and tells you who doesn’t follow you back.",
         "techstack": ["html5", "javascript", "css"],
         "links": { "live": "https://ghost-follow.vercel.app/", "github": "https://github.com/itsloki-dev/GhostFollow"},
-        "banner": "https://raw.githubusercontent.com/itsloki-dev/GhostFollow/main/assets/banner.png"
+        "banner": "https://raw.githubusercontent.com/itsdannydev/GhostFollow/main/assets/banner.png"
     },
     {
         "name": "CureFlow",
@@ -28,6 +28,6 @@
         "description": "Multi-tenant SaaS for veterinary clinics. Each clinic runs on its own subdomain with isolated data. Role-based access (Admin, Doctor, Receptionist) with timed edit windows, consultation sessions, billing with printable receipts, prescriptions, appointments, and a Super Admin layer to manage all tenants.",
         "techstack": ["typescript", "react", "express", "postgresql", "prisma", "tailwindcss"],
         "links": { "live": "https://cureflow.co.in" },
-        "banner": "https://cureflow.co.in/assets/og_image.webp"
+        "banner":"http://cureflow.co.in/assets/banner.webp"
     }
 ]
