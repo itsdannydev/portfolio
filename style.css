@@ -262,6 +262,27 @@ nav {
 .btn-primary:hover::after { transform: translateX(0); }
 .btn-primary:hover { transform: translateY(-2px); }
 
+.btn-outline {
+  background: transparent;
+  color: var(--text);
+  padding: 0.9rem 2.2rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border: 1px solid var(--accent);
+  cursor: none;
+  text-decoration: none;
+  display: inline-block;
+  transition: background 0.2s, color 0.2s, transform 0.2s;
+}
+.btn-outline:hover {
+  background: var(--accent);
+  color: var(--btn-text);
+  transform: translateY(-2px);
+}
+
 .btn-ghost {
   color: var(--text);
   font-size: 0.8rem;
