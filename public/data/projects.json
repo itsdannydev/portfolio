@@ -2,7 +2,7 @@
     {
         "name": "Scribo",
         "tagline": "Smart shopping lists that know what you need.",
-        "description": "A local-first Android app for managing household shopping. Maintain master lists of everything you regularly stock, enter what you currently have, and Scribo generates a trip-specific shopping list for exactly what's missing. Track items while shopping with partial buy support — buy less than needed and the remainder stays on the list automatically. Supports unit conversion across weight, volume, and count families.",
+        "description": "Built for my mom, who tracked groceries on paper and kept losing her lists. A local-first Android app where you keep master lists of everything the household stocks, enter what you currently have, and Scribo generates a shopping list of exactly what's missing. Partial buying is supported: buy less than needed and the remainder stays on the list automatically. Unit conversion works across weight, volume, and count. Now used by my mom's friends too.",
         "techstack": ["typescript", "react-native", "expo"],
         "links": { "github": "https://github.com/itsdannydev/scribo" },
         "banner": "https://raw.githubusercontent.com/itsdannydev/scribo/main/assets/banner.webp"
@@ -10,7 +10,7 @@
     {
         "name": "CureFlow",
         "tagline": "Run your clinic. Not your spreadsheets.",
-        "description": "Multi-tenant SaaS for veterinary clinics. Each clinic runs on its own subdomain with isolated data. Role-based access (Admin, Doctor, Receptionist) with timed edit windows, consultation sessions, billing with printable receipts, prescriptions, appointments, and a Super Admin layer to manage all tenants.",
+        "description": "Live multi-tenant SaaS I built for veterinary clinics, a segment with far fewer affordable software options than human clinics. Each clinic runs on its own subdomain with fully isolated data. Includes role-based access (Admin, Doctor, Receptionist) with timed edit windows, consultation sessions, prescriptions, appointments, billing with printable receipts, and a Super Admin layer to manage all tenants. In daily use at my mom's clinic for 2+ months.",
         "techstack": ["typescript", "react", "express", "postgresql", "prisma", "tailwindcss"],
         "links": { "live": "https://cureflow.co.in" },
         "banner":"https://cureflow.co.in/assets/banner.webp"
@@ -18,7 +18,7 @@
     {
         "name": "Dotfiles",
         "tagline": "Not perfect. Just mine.",
-        "description": "Personal dotfiles for managing and reproducing my Linux development setup.",
+        "description": "Version-controlled configuration for my Fedora + Hyprland development environment, written in Lua and Bash, so I can reproduce my full setup on any machine.",
         "techstack": ["lua", "gnubash"],
         "links": { "github": "https://github.com/itsdannydev/.dotfiles"},
         "banner": "https://github.com/itsdannydev/.dotfiles/raw/main/assets/banner.png"
@@ -26,14 +26,14 @@
     {
         "name": "Attendify",
         "tagline": "Club Events Attendance Tracker",
-        "description": "Export CSV file exported from website, have an interactive attendance tracker",
+        "description": "Attendance tracker for college club events. Import the CSV exported from the event registration site and get an interactive interface to mark and track who showed up. Built with Express and EJS.",
         "techstack": ["ejs", "javascript", "css","express"],
         "links": { "github": "https://github.com/itsdannydev/attendify"}
     },
     {
         "name": "GhostFollow",
         "tagline": "Find the ghosts in your following list",
-        "description": "A minimal tool that parses your Instagram data export and tells you who doesn’t follow you back.",
+        "description": "Privacy-first tool that shows who doesn't follow you back on Instagram. You upload your own Instagram data export and it is processed locally in your browser, with no login, no password, and no data sent to a server. Deployed on Vercel.",
         "techstack": ["html5", "javascript", "css"],
         "links": { "live": "https://ghost-follow.vercel.app/", "github": "https://github.com/itsloki-dev/GhostFollow"},
         "banner": "https://raw.githubusercontent.com/itsdannydev/GhostFollow/main/assets/banner.png"
