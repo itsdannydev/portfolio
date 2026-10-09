@@ -1,5 +1,13 @@
 [
     {
+        "name": "NPTEL Practice",
+        "tagline": "NPTEL exam prep, without re-reading the whole course.",
+        "description": "Built to study for my own NPTEL exams without digging back through entire transcripts. Pick a course and week, and practice its quiz in Practice (answers shown right away), Quiz (checked as you go), or Mock Test (scored only at the end) mode. Questions render as full Markdown, including tables and images, and weeks can be mixed together with shuffled question and answer order for a randomized practice set. Entirely static and frontend-only, with progress tracked locally per week.",
+        "techstack": ["typescript", "react", "vite", "css"],
+        "links": { "live": "https://nptel.danny.co.in/", "github": "https://github.com/itsdannydev/nptel-practice" },
+        "banner": "https://nptel.danny.co.in/banner.png"
+    },
+    {
         "name": "Scribo",
         "tagline": "Smart shopping lists that know what you need.",
         "description": "Built for my mom, who tracked groceries on paper and kept losing her lists. A local-first Android app where you keep master lists of everything the household stocks, enter what you currently have, and Scribo generates a shopping list of exactly what's missing. Partial buying is supported: buy less than needed and the remainder stays on the list automatically. Unit conversion works across weight, volume, and count. Now used by my mom's friends too.",
